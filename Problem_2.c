@@ -12,7 +12,15 @@ int main()
     scanf("%d", &n);
 
     //Write your code here
-    
+    int a=0,b=1,i,c;
+    for(i=1;i<=n;i++)
+    {
+    printf("%d\n",a);
 
+  
+    c=a+b;
+    a=b;
+    b=c;
+    }
     return 0;
 }
